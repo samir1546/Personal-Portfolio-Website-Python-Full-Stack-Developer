@@ -25,12 +25,12 @@ const App = () => {
             path="/"
             element={
               <>
-                {/* <Hero />
-                <About /> */}
+                <Hero />
+                <About />
                 <Skills />
-                {/* <Projects />
+                <Projects />
                 <Contact />
-                <Footer /> */}
+                <Footer />
               </>
             }
           />
