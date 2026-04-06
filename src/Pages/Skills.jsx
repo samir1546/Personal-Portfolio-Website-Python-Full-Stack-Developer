@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from "react";
-import TitleHeader from "../Components/about/TitleHeader";
 import BallCanvas from "../Components/Canvas/Ball";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
@@ -15,16 +14,9 @@ import img8 from "../assets/tech/tailwind.png"
 
 import img9 from "../assets/tech/python.png"
 import img10 from "../assets/tech/Django.png"
-import img11 from "../assets/tech/Database.png"
-import img12 from "../assets/tech/mysql.png"
-import img13 from "../assets/tech/PostgresSQL.png"
-import img14 from "../assets/tech/mongodb.png"
-
-
-import img15 from "../assets/tech/postman.png"
-import img16 from "../assets/tech/git.png"
-import img17 from "../assets/tech/github.png"
-import img18 from "../assets/tech/VsCode.png"
+import img11 from "../assets/tech/mysql.png"
+import img12 from "../assets/tech/PostgresSQL.png"
+import img13 from "../assets/tech/mongodb.png"
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -32,8 +24,8 @@ const skillsFrontEnd = [
     { name: "HTML", icon: img1 },
     { name: "CSS", icon: img2 },
     { name: "JavaScript", icon: img3 },
-    { name: "React", icon: img4 },
-    { name: "Typescript", icon: img5 },
+    { name: "Typescript", icon: img4 },
+    { name: "React", icon: img5 },
     { name: "NextJs", icon: img6 },
     { name: "Redux", icon: img7 },
     { name: "Tailwind", icon: img8 },
@@ -43,18 +35,10 @@ const skillsFrontEnd = [
 const SkillsBackEnd = [
     { name: "Python", icon: img9 },
     { name: "Django", icon: img10 },
-    // { name: "Database", icon: img11 },
-    { name: "MYSQL", icon: img12 },
-    { name: "postgreesql", icon: img13 },
-    { name: "MongoDB", icon: img14 },
+    { name: "MYSQL", icon: img11 },
+    { name: "postgreesql", icon: img12 },
+    { name: "MongoDB", icon: img13 },
 ]
-
-// const Tools = [
-//     { name: "Postman", icon: img15 },
-//     { name: "Git", icon: img16 },
-//     { name: "Github", icon: img17 },
-//     { name: "VsCode", icon: img18 },
-// ]
 
 
 
