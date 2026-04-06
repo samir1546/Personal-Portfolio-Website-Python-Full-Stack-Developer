@@ -2,21 +2,22 @@ import React, { useEffect, useRef } from "react";
 import BallCanvas from "../Components/Canvas/Ball";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
-import img1 from "../assets/tech/html.png"
-import img2 from "../assets/tech/css.png"
-import img3 from "../assets/tech/javascript.png"
-import img4 from "../assets/tech/typescript.png"
-import img5 from "../assets/tech/reactjs.png"
-import img6 from '../assets/tech/Nextjs.png'
-import img7 from "../assets/tech/redux.png"
-import img8 from "../assets/tech/tailwind.png"
+import img1 from "../assets/tech/H.png"
 
+import img2 from "../assets/tech/C.png"
 
-import img9 from "../assets/tech/python.png"
-import img10 from "../assets/tech/Django.png"
-import img11 from "../assets/tech/mysql.png"
-import img12 from "../assets/tech/PostgresSQL.png"
-import img13 from "../assets/tech/mongodb.png"
+import img3 from "../assets/tech/J.png"
+
+import img4 from "../assets/tech/TY.png"
+import img5 from "../assets/tech/R.png"
+import img6 from '../assets/tech/N.png'
+import img7 from "../assets/tech/RE.png"
+import img8 from "../assets/tech/T.png"
+import img9 from "../assets/tech/PY.png"
+import img10 from "../assets/tech/D.png"
+import img11 from "../assets/tech/MY.png"
+import img12 from "../assets/tech/P.png"
+import img13 from "../assets/tech/M.png"
 
 gsap.registerPlugin(ScrollTrigger);
 
